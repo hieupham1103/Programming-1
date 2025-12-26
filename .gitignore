@@ -1,3 +1,5 @@
 tmp
 *.zip
 .vscode
+*.DS_Store
+*.exe

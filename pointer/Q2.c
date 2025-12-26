@@ -38,6 +38,7 @@ int main(){
     
     printf("The search key was not found in the array\n");
     
+    // Free memory
     for (ptr = a; ptr < a + n; ptr++) {
         free(*ptr);
     }
